@@ -364,7 +364,7 @@ font-size: 1.3rem; /*originally 1.2*/
   /* text-decoration: underline; */
 }
 .navlink:hover {
-  color: rgb(210, 222, 226);
+  color: rgb(216, 223, 225);
 }
 .nav {
   display: flex;
