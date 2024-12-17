@@ -256,7 +256,8 @@ a:hover {
 }
 .bottom-sparkle {
   /* height: 200px; */
-  height: 20%;
+  /* height: 20%; */
+  height: 15%;
   position: absolute;
   /* right: 280px; */
   right: 15%;
@@ -274,7 +275,8 @@ a:hover {
 
 .top-sparkle {
   /* height: 200px; */
-  height: 20%;
+  /* height: 20%; */
+  height: 15%;
   position: absolute;
   /* left: 250px; */
   left: 19%;
