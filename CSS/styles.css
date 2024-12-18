@@ -355,7 +355,6 @@ a {
 .cheryl {
 /* font-weight: bolder; */
 color: #11999E;
-
 font-family:'Satisfy', cursive;
 font-size: 1.3rem; /*originally 1.2*/
 /* font-family: "Doto", sans-serif; */
@@ -370,7 +369,9 @@ font-size: 1.3rem; /*originally 1.2*/
 }
 .nav {
   display: flex;
-  gap: 10%;
+  /* gap: 10%; */
+  gap: 1.5rem;
+
   color: black;
   font-size: 17px;
   font-family: "Roboto", system-ui;
