@@ -366,7 +366,28 @@ font-size: 1.3rem; /*originally 1.2*/
 }
 .navlink:hover {
   color: rgb(216, 223, 225);
+  transition: 0.5s;
 }
+
+/* .nav-item:hover {
+	color: #2a2d34;
+	transition: 0.5s;
+}  */
+
+
+.navlink:hover:after {
+    transform: scaleX(1);
+} 
+
+.navlink::after {
+    display:block;
+    content: '';
+    border-bottom: solid 3px #d3cbf5;  
+    transform: scaleX(0);  
+    transition: 350ms ease-in-out;
+    transform-origin: 0% 50%;
+} 
+
 .nav {
   display: flex;
   /* gap: 10%; */
