@@ -256,8 +256,8 @@ a:hover {
 }
 .bottom-sparkle {
   /* height: 200px; */
-  /* height: 20%; */
-  height: 15%;
+  /* height: 20%; */ /*15*/
+  height: 10%;
   position: absolute;
   /* right: 280px; */
   right: 15%;
@@ -275,8 +275,8 @@ a:hover {
 
 .top-sparkle {
   /* height: 200px; */
-  /* height: 20%; */
-  height: 15%;
+  /* height: 20%; */ /*15*/
+  height: 10%;
   position: absolute;
   /* left: 250px; */
   left: 19%;
@@ -521,11 +521,120 @@ font-size: 1.3rem; /*originally 1.2*/
 	opacity: 1;
 }
 
+/*About Code Image Section */
+
+
+/**About**/
+
+#about-img {
+  flex: 1; /* Allow the image to share space proportionally */
+	height: auto; /*Maintain aspect ratio*/
+	border-radius: 4px;
+	border-top: 20px solid #e5e5e5;
+	box-shadow: 12px 12px 1px #d7d3e7;
+	overflow-y:hidden;
+	margin: 40px;
+	margin-top: 20px;
+  /* width: 400px; Adjust as necessary */
+  width: 800px; /*Adjust as necessary*/
+
+  border-radius: 8px; /* Optional: Add rounded corners */
+  object-fit: cover; /*Optional: Ensure the image fits well*/
+  
+}
+
+#img-console {
+	width: 100%;
+  display: flex;
+  flex-direction: row; /* Ensure items are in a horizontal row */
+  align-items: center; /* Align items vertically in the center */
+  gap: 20px; /* Optional: Add spacing between the image and text */ /*50*/
+  flex-wrap: wrap; /* Allow wrapping for small screens */
+  align-items: stretch; /* Stretch children to match heights */
+
+}
+
+#about-section {
+	background-color:lightcyan;;
+	padding: 5%;
+	/* min-height:100vh; */
+  text-align: left;
+}
+
+#console {
+	margin: 40px;
+	margin-top: 20px;
+	padding: 30px;
+	overflow-y:auto;
+	line-height: 22px;
+	height: 390px;
+	width: 550px;
+	font-size: 90%;
+	font-family: Monaco,monospace;
+	border-top: 20px solid #e5e5e5;
+	border-radius: 4px;
+	background-color: #2a2d34;
+	box-shadow: 12px 12px 1px #d7d3e7;
+  flex: 2; /* Ensure the console takes up the remaining space */
+  min-width: 300px; /* Prevent console from being too small */
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+  #img-console {
+    flex-direction: column; /* Stack text and image vertically */
+    align-items: center; /* Center-align contents */
+  }
+
+  #console {
+    width: 100%; /* Make text take full width */
+    text-align: center; /* Center-align text for better readability */
+  }
+
+  #about-img {
+    width: 80%; /* Make image responsive to screen size on mobile */
+    flex: 1; /* Allow the image to share space proportionally */
+    width: 80%; /* Make image responsive to screen size */
+    max-width: 400px; /* Prevent image from being too large */
+    margin-top: 20px; /* Add spacing between text and image */
+  }
+}
+
+#console a {
+	text-decoration: underline;
+}
+
+ul { 
+	margin: 0; 
+	padding-left: 24px; 
+}
+
+.first-color {
+	color: #ac78c2;
+}
+.second-color {
+	color: #c5c8c6;
+}
+
+.third-color {
+	color: #5888ca;
+}
+
+.fourth-color {
+	color: #f0c674;
+}
+
+.fifth-color {
+	color: #b5bd68;
+}
+
+
+/* End of About Code Image Section /*
 
 
 
 
-body {
+/* body { */
   margin: 0;
   /*background-color: #E4F9F5;*/
   text-align: center;
@@ -536,7 +645,7 @@ body {
   /*font-family: Verdana, sans-serif;*/
   /*  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   /*list of fall-backs, Helvetica Neue is Mac-only, Windows might see Arial*/
-}
+/* } */
 
 /*
 .bottom-cloud {
