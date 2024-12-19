@@ -24,6 +24,8 @@
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+  color: #ffffff;
+
   /*
 
    background: #6D97DA;
