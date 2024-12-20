@@ -362,6 +362,13 @@ font-size: 1.3rem; /*originally 1.2*/
 /* font-family: "Doto", sans-serif; */
 /* font-weight: 800;  */
 }
+
+.hello_world {
+  /* font-family: "Courier Prime", serif; */
+  font-family: "Fira Mono", serif;
+  font-size: 3rem;
+}
+
 .navlink {
   color: white;
   /* text-decoration: underline; */
