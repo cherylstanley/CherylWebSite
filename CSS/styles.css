@@ -418,13 +418,40 @@ font-size: 1.3rem; /*originally 1.2*/
 
 /**Projects**/
 
+/* #project-section { */
+	/* margin: 50px; */
+    /* display: flex; */
+    /* flex-wrap: wrap; Allow items to wrap to the next line */
+    /* justify-content: center; Center items horizontally */
+    /* align-items: center; Center items vertically */
+    /* gap: 20px; Add space between project items */
+/* } */
+
+/* #button-section {
+	justify-content: center;
+	align-items: center;
+} */
+
+
 #project-section {
-	margin: 50px;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Center items horizontally */
+  align-items: flex-start; /* Align items at the top */
+  gap: 20px; /* Add space between project items */
 }
 
 #button-section {
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0; /* Fix the buttons to the top */
+  z-index: 10; /* Ensure it's above the projects */
+  background-color: #fff; /* Optional: to make sure the buttons stay visible */
+  padding: 10px 0; /* Add some padding for spacing */
+  width: 100%; /* Ensure the filter buttons stretch across the width */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for separation */
 }
 
 .filter-button {
@@ -637,12 +664,12 @@ ul {
 
 
 /* body { */
-  margin: 0;
+  /* margin: 0; */
   /*background-color: #E4F9F5;*/
-  text-align: center;
+  /* text-align: center; */
   /* only if no width set, if width set use auto left/right and 0 top/bottom*/
   /* Example of font-embedding. Google font link copied ensures the font is perceived the same way across all devices */
-  font-family: 'Merriweather', serif;
+  /* font-family: 'Merriweather', serif; */
   /*not a large stack because it's a commonly found font*/
   /*font-family: Verdana, sans-serif;*/
   /*  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
@@ -686,7 +713,7 @@ bottom: 400px;
   padding-bottom: 100px;
 }
 
-div {}
+
 
 .dots {
   border-bottom-width: 2px;
