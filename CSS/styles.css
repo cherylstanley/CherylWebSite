@@ -40,6 +40,15 @@
    text-decoration: none;*/
 }
 
+.button-container {
+  display: inline-block; /*Prevents the flexbox behavior from modifying padding*/
+  display: flex; /*Allows button to be aligned to center horizantally, but increases padding*/
+  justify-content: center; /* Horizontally centers the buttons */
+  align-items: center;    /* Vertically centers the buttons */
+  gap: 40px; /* Add space between buttons */
+
+}
+
 .green {
   width: 98%;
   border-width: 10px;
