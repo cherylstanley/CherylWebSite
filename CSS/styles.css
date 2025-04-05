@@ -703,26 +703,10 @@ footer {
   padding-right: 50px;
 }
 
-@media (min-width: 319px) and (max-width: 480px) {
-  body {
-      padding-top: 70px;
-      padding-left: 30px;
-      padding-right: 30px;
-      padding-bottom: 30px;
-  }
 
-  p {
-      font-size: 11px;
-  }
-
-  .pink-space {
-      font-size: 11px;
-  }
   
-  .gray-space {
-      font-size: 11px;
-  }
 
+<<<<<<< HEAD
   .mood {
       display: block;
   }
@@ -1496,3 +1480,40 @@ footer {
       list-style-type: none;
   }
 }
+=======
+
+/* NOTES===================================================================*/
+/* Obtained 5.625em because 100% = 16px. 90px (Desired) / 16 = 5.625em = 562.5%;*/
+/* Note: Use Percentage to dynamically change font when users
+change visual ompairment settings on browser, doesn't matter for users zoomig in though*/
+/*100%= 16px ; 90/16=5.625=562.5%
+
+/* Another dynamic change font method is using "em"
+
+1em = 16px =
+90px = 5.625em; (90/16=5.625)
+em and Percentages have samee efect.
+*/
+/*em and Percentage are inherited so changes in other items are added onto
+other items. Unlike pixels, where setting font size in pixels for one item
+does not affect all other elements*/
+/*NOW in current version CSS using rem instead of em says the size 5.625em is the
+root em and doesn't get affected by code in other elements.
+So make sure to use REM! */
+/*     =>   End of em vs Percentage notes      */
+/*======================================================================*/
+/* Notes
+Font-family
+monospace: every character takes same amount of space (used for code)
+cursive (hand-writing)/fantasy(Avatar) have low readability not used for text body
+
+serif/sans-serif are mainly used
+serif: includes "feet" | sans-serif no "feet"
+
+
+Important: if a font included in your website is not offered in another OS
+
+=>     End of Font-family  notes
+
+*/
+>>>>>>> 8d440f1aec8bfc860e9e53dd9f69b6f93e13cf8a
