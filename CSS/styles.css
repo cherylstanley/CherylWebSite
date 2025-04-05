@@ -1480,7 +1480,7 @@ footer {
       list-style-type: none;
   }
 }
-=======
+
 
 /* NOTES===================================================================*/
 /* Obtained 5.625em because 100% = 16px. 90px (Desired) / 16 = 5.625em = 562.5%;*/
@@ -1516,4 +1516,3 @@ Important: if a font included in your website is not offered in another OS
 =>     End of Font-family  notes
 
 */
->>>>>>> 8d440f1aec8bfc860e9e53dd9f69b6f93e13cf8a
