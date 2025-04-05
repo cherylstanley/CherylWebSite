@@ -1,2 +1,2 @@
 # CherylWebSite
-https://cherylstanley.github.io/CherylWebSite/
+https://cherylstanley.github.io/
