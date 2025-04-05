@@ -173,12 +173,7 @@ function filterSelection(c) {
   }
 }
 
-// function filterSelection(category) {
-//   const projects = document.querySelectorAll(".each-project");
-//   projects.forEach((project) => {
-//     project.style.display = category === "all" || project.classList.contains(category) ? "block" : "none";
-//   });
-// }
+
 
 
 function w3AddClass(element, name) {
